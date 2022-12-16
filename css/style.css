@@ -11,7 +11,7 @@
 NAV BAR
 ********/
 .container-nav{
-    
+    max-width: 900px;
 }
 .row-nav{
     text-align: center;
@@ -28,7 +28,33 @@ a{
 }
 
 
+/********
+CARD
+********/
+.container-card{
+    max-width: 900px;
+}
+.row-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.col-card{
+    min-height: 300px;
+    min-width: 200px
+}
+.desc-article{
+    position: relative;
+    top: 250px;
+}
+span{
+    display: block;
+    font-size: xx-small;
+}
 
+/********
+CARD
+********/
 
 
 
@@ -40,16 +66,19 @@ NAV BAR
 
 #debug div{
     border: 3px dotted blue;
-    padding: 3px;
+    padding: 1px;
 }
 
 #debug header{
+    display: flex;
+    justify-content: center;
     min-height: 30px;
     background-color: rgb(255,94,0);
 }
 #debug main{
+    display: flex;
+    justify-content: center;
     min-height: 500px;
-    background-color: aquamarine;
 }
 #debug footer{
     min-height: 80px;
