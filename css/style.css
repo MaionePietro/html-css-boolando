@@ -139,6 +139,7 @@ FOOTER
 }
 footer span{
     color:white;
+
 }
 .row-footer{
     display: flex;
@@ -176,15 +177,22 @@ DEBUG
 #debug header{
     display: flex;
     justify-content: center;
+    align-items: center;
     min-height: 30px;
     background-color: rgb(255,94,0);
 }
 #debug main{
     display: flex;
     justify-content: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
     min-height: 500px;
 }
 #debug footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin-top: 25px;
     min-height: 80px;
     background-color: black;   
