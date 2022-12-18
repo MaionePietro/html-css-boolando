@@ -11,7 +11,7 @@
 NAV BAR
 ********/
 .container-nav{
-    min-width: 1000px
+    min-width: 900px
 }
 .row-nav{
     text-align: center;
@@ -33,7 +33,7 @@ NAV BAR
 CARD
 ********/
 .container-card{
-    min-width: 1000px
+    min-width: 900px
 }
 .row-card{
     display: flex;
@@ -86,6 +86,9 @@ span{
     display: block;
     font-size: xx-small;
 }
+.type{
+    font-weight:bolder;
+}
 .price{
     color: red;
 }
@@ -125,6 +128,41 @@ PICTURES
 ********/
 
 
+/********
+FOOTER
+********/
+.container-footer{
+    min-width: 900px;
+}
+.name{
+    color: white;
+}
+footer span{
+    color:white;
+}
+.row-footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.list-icon{
+    list-style: none;
+    display: flex;
+}
+.icon{
+    line-height: 32px;
+    width: 32px;
+    color: white;
+}
+.fa-brands{
+
+}
+
+/********
+FOOTER
+********/
+
 
 /********
 DEBUG
@@ -147,8 +185,9 @@ DEBUG
     min-height: 500px;
 }
 #debug footer{
+    margin-top: 25px;
     min-height: 80px;
-    background-color: black;
+    background-color: black;   
 }
 /********
 DEBUG
