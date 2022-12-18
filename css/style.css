@@ -11,7 +11,7 @@
 NAV BAR
 ********/
 .container-nav{
-    max-width: 900px;
+    min-width: 1000px
 }
 .row-nav{
     text-align: center;
@@ -19,20 +19,21 @@ NAV BAR
     justify-content: center;
     justify-content: space-around;
     align-items: center;
-    
 }
 a{
     text-decoration: none;
     color: white;
     font-size: x-small;
 }
-
+/********
+NAV BAR
+********/
 
 /********
 CARD
 ********/
 .container-card{
-    max-width: 900px;
+    min-width: 1000px
 }
 .row-card{
     display: flex;
@@ -40,33 +41,98 @@ CARD
     align-items: center;
 }
 .col-card{
-    min-height: 300px;
-    min-width: 200px
+    margin: 5px;
+    padding-top: 40px;
+    min-height: 500px;
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
 }
-.desc-article{
+.img-card{
+    flex-grow: 3;
+    background-position: center;
+    background-size: cover;
+}
+.heart{
+    padding: 5px 10px;
+    background-color: white;
+    font-size: small;
+    display: inline-block;
     position: relative;
-    top: 250px;
+    width:auto;
+    left: calc(100% - 33px); ;
+}
+.sale{
+    padding: 5px 10px;
+    background-color: red;
+    color: white;
+    font-size: x-small;
+    position: relative;
+    display: inline-block;
+    top: 380px;
+    right: 36px;
+}
+.sost{
+    padding: 5px 10px;
+    background-color: green;
+    color: white;
+    font-size: x-small;
+    position: relative;
+    display: inline-block;
+    top: 380px;
+    right: 36px;
 }
 span{
     display: block;
     font-size: xx-small;
 }
-
+.price{
+    color: red;
+}
+.price-before{
+    display: inline-block;
+    text-decoration: line-through;
+    color: black;
+}
 /********
 CARD
 ********/
 
 
+/********
+PICTURES
+********/
+.i1{
+    background-image: url(/img/1.webp);
+}
+.i2{
+    background-image: url(/img/2.webp);
+}
+.i3{
+    background-image: url(/img/3.webp);
+}
+.i4{
+    background-image: url(/img/4.webp);
+}
+.i5{
+    background-image: url(/img/5.webp);
+}
+.i6{
+    background-image: url(/img/6.webp);
+}
+/********
+PICTURES
+********/
 
 
 
 /********
-NAV BAR
+DEBUG
 ********/
 
-#debug div{
-    border: 3px dotted blue;
-    padding: 1px;
+#debugd div {
+    border: 2px dotted blue;
+    padding: 2px;
 }
 
 #debug header{
