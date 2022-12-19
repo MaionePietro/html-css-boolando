@@ -52,13 +52,14 @@ CARD
     flex-grow: 3;
     background-position: center;
     background-size: cover;
+    position: relative;
 }
 .heart{
     padding: 5px 10px;
     background-color: white;
     font-size: small;
     display: inline-block;
-    position: relative;
+    position: absolute;
     width:auto;
     left: calc(100% - 33px); ;
 }
@@ -67,20 +68,22 @@ CARD
     background-color: red;
     color: white;
     font-size: x-small;
-    position: relative;
+    position: absolute;
     display: inline-block;
     top: 380px;
-    right: 36px;
 }
 .sost{
     padding: 5px 10px;
     background-color: green;
     color: white;
     font-size: x-small;
-    position: relative;
+    position: absolute;
     display: inline-block;
     top: 380px;
-    right: 36px;
+    left: 45px;
+}
+.no-sale{
+    left: 0px;
 }
 span{
     display: block;
